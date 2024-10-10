@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrawGrow</title>
+
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
+
+    <!-- 화면이동시 부드럽게 움직이기 -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style2-2.css">
+
+    <!-- JS -->
+    <script src="./js/script2-1.js"></script>
+
+<body>
+    <!-- header_START -->
+    <div id="header_wrap">
+        <!-- 1920*100 / 바닥선 #6da065 -->
+        <div class="header">
+            <!-- 1320*100 / 가운데정렬 -->
+            <a href="./index.html"><img src="./image/logo.png" alt="logo"></a>
+            <ul class="sub">
+                <!-- 700*99 / 쌩가운데-->
+                <li><a href="./index2.html">BOOK</a>
+                    <div class="sub_wrap">
+                        <div class="sub_inner">
+                            <ul class="sub_menu">
+                                <li><a href="./index2.html">도서 홈</a></li>
+                                <li><a href="./index3.html">북클럽</a></li>
+                                <li><a href="./index2-1.html">로우의 책장</a></li>
+                                <li><a href="./index2-2.html">러우의 수납장</a></li>
+                            </ul>
+                            <ul class="sub_menu">
+                                <li><a href="./index4.html">EVENT</a></li>
+                                <li><a href="./index4.html">공지사항</a></li>
+                                <li><a href="./index4.html">예약/캘린더</a></li>
+                            </ul>
+                            <ul class="sub_menu">
+                                <li><a href="./index5.html">브랜드 소개</a></li>
+                                <li><a href="./index5.html">층별안내</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="./index4.html">COMMUNITY</a>
+                    <div class="sub_wrap">
+                        <div class="sub_inner">
+                            <ul class="sub_menu">
+                                <li><a href="./index2.html">도서 홈</a></li>
+                                <li><a href="./index3.html">북클럽</a></li>
+                                <li><a href="./index2-1.html">로우의 책장</a></li>
+                                <li><a href="./index2-2.html">러우의 수납장</a></li>
+                            </ul>
+                            <ul class="sub_menu">
+                                <li><a href="./index4.html">EVENT</a></li>
+                                <li><a href="./index4.html">공지사항</a></li>
+                                <li><a href="./index4.html">예약/캘린더</a></li>
+                            </ul>
+                            <ul class="sub_menu">
+                                <li><a href="./index5.html">브랜드 소개</a></li>
+                                <li><a href="./index5.html">층별안내</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="./index5.html">ABOUT</a>
+                    <div class="sub_wrap">
+                        <div class="sub_inner">
+                            <ul class="sub_menu">
+                                <li><a href="./index2.html">도서 홈</a></li>
+                                <li><a href="./index3.html">북클럽</a></li>
+                                <li><a href="./index2-1.html">로우의 책장</a></li>
+                                <li><a href="./index2-2.html">러우의 수납장</a></li>
+                            </ul>
+                            <ul class="sub_menu">
+                                <li><a href="./index4.html">EVENT</a></li>
+                                <li><a href="./index4.html">공지사항</a></li>
+                                <li><a href="./index4.html">예약/캘린더</a></li>
+                            </ul>
+                            <ul class="sub_menu">
+                                <li><a href="./index5.html">브랜드 소개</a></li>
+                                <li><a href="./index5.html">층별안내</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="gnb">
+                <!-- 230*99 / 왼쪽 탑 0 -->
+                <li><a href="./index6.html">마이페이지</a></li>
+                <li><a href="./index6.html">로그인</a></li>
+                <li><a href="./index6.html">회원가입</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div id="wrap">
+
+        <!-- 책장 제일 위 소개글 -->
+        <ul class="mb">
+            <li>
+                <img src="./image/tempage_mb.png" alt="mb">
+            </li>
+            <li>
+                <h1>러우의 수납장</h1>
+                <p>예쁨 수집가! 러우의 독서템 & N월의 책 모음 수납장입니다.</p>
+            </li>
+        </ul>
+
+
+        <!-- 탭 버튼 (베셀/신간/N월책) -->
+        <ul id="tap">
+            <li class="on">
+                <a href="javascript:return false;">독서템</a>
+                <div class="best_wrap">
+                    <ul class="best">
+                        <p class="title t1">
+                            BEST 3
+                        </p>
+                        <li><a href="javascript:return false;">
+                                <h1 class="goodsbox g1">
+                                </h1>
+                                <h2 class="cover">
+                                    <p>
+                                        베이직 독서노트<br>(로우ver)</p>
+                                    <p>￦12,000</p>
+                                </h2>
+                            </a></li>
+                        <li><a href="javascript:return false;">
+                                <h1 class="goodsbox g2"></h1>
+                                <h2 class="cover">
+                                    <p>
+                                        문학명언 책갈피</p>
+                                    <p>￦2,000</p>
+                                </h2>
+                            </a></li>
+                        <li><a href="javascript:return false;">
+                                <h1 class="goodsbox g3"></h1>
+                                <h2 class="cover">
+                                    <p>
+                                        2025 달력</p>
+                                    <p>￦18,000</p>
+                                </h2>
+                            </a></li>
+                    </ul>
+                    <ul class="best">
+                        <li><a href="javascript:return false;">
+                                <h1 class="goodsbox g4"></h1>
+                                <p class="cover">
+                                    <h2 class="cover">
+                                        <p>힙-노트</p>
+                                        <p>￦10,000</p>
+                                    </h2>
+                                </p>
+                            </a></li>
+                        <li><a href="javascript:return false;">
+                                <h1 class="goodsbox g5"></h1>
+                                <p class="cover">
+                                    <h2 class="cover">
+                                        <p>책담아요 에코백</p>
+                                        <p>￦18,000</p>
+                                    </h2>
+                                </p>
+                            </a></li>
+                        <li><a href="javascript:return false;">
+                                <h1 class="goodsbox g6"></h1>
+                                <p class="cover">
+                                    <h2 class="cover">
+                                        <p>베이직 독서노트<br>(러우ver)</p>
+                                        <p>￦12,000</p>
+                                    </h2>
+                                </p>
+                            </a></li>
+                    </ul>
+                    <ul class="best">
+                        <li><a href="javascript:return false;">
+                                <h1 class="goodsbox g7"></h1>
+                                <p class="cover">
+                                    <h2 class="cover">
+                                        <p>로우러우 연필꽂이</p>
+                                        <p>￦5,000</p>
+                                    </h2>
+                                </p>
+                            </a></li>
+                        <li><a href="javascript:return false;">
+                                <h1 class="goodsbox g8"></h1>
+                                <p class="cover">
+                                    <h2 class="cover">
+                                        <p>템이름</p>
+                                        <p>￦가격</p>
+                                    </h2>
+                                </p>
+                            </a></li>
+                        <li><a href="javascript:return false;">
+                                <h1 class="goodsbox g9"></h1>
+                                <p class="cover">
+                                    <h2 class="cover">
+                                        <p>템이름</p>
+                                        <p>￦가격</p>
+                                    </h2>
+                                </p>
+                            </a></li>
+                    </ul>
+
+                    <ul class="best">
+                        <li>
+                            <h4>
+                                드로우 그로우 독서템 수익금의 일부는<br>부산지역 아동복지센터의 도서구비를 위해 기부됩니다.😊❤️
+                            </h4>
+                        </li>
+                        <li class="go">
+                            <h3>
+                                <a href="./index2-1.html">
+                                    <p>로우의 책장<br>보러가기</p>
+                                    <img src="./image/row_jang.png" alt="">
+                                </a>
+                            </h3>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+
+            <!-- N월의 책 -->
+            <li>
+                <a href="javascript:return false;">N월의 책</a>
+                <div class="new_wrap">
+
+                    <ul class="month">
+                        <li class="m1">
+                            <h4>12월의 책</h4>
+                            <p><span>선정사유</span><br>
+                                겨울과 봄 사이를 잇는 <br>지금 계절에 어울리는 책</p>
+                        </li>
+                        <li class="m2">
+                            <img src="./image/novel8.png" alt="december_book">
+                        </li>
+                        <li class="m3">
+                            <h2>봄에게 쓰는 편지, 겨울이가</h2>
+                            <p>정하영 / 드로우 그로우
+                                <br>2024. 11. 31.
+                            </p>
+                            <p>
+                                "내가 잠시 쉬어갈 때, 네가 더욱 빛나는 거야.<br>
+                                결국 우리는 서로를 빛춰주며 연결되어 있는 게 아닐까."
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="month">
+                        <li class="m1">
+                            <h4>11월의 책</h4>
+                            <p><span>선정사유</span><br>
+                                제법 쌀쌀해진 기온에<br>따뜻함을 더해줄 문장들</p>
+                        </li>
+                        <li class="m2">
+                            <img src="./image/novel2.png" alt="november_book">
+                        </li>
+                        <li class="m3">
+                            <h2>지구 끝의 온실</h2>
+                            <p>김초엽 / 자이언트북스
+                                <br>2021. 08. 18.
+                            </p>
+                            <p>
+                                "아마도 나는, 그 마음에 대한 이야기를 쓰고 싶었던 것 같다."<br>
+                                "어떻게 이처럼 작은 우리가 서로를 구할 수 있는걸까?"
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="month">
+                        <li class="m1">
+                            <h4>10월의 책</h4>
+                            <p><span>선정사유</span><br>
+                                독서의 계절인 가을에 <br>문학이 주는 잊고 살던<br>낭만을 다시 회복해보자</p>
+                        </li>
+                        <li class="m2">
+                            <img src="./image/c6.png" alt="october_book">
+                        </li>
+                        <li class="m3">
+                            <h2>다시 문학을 사랑한다면</h2>
+                            <p>이선재 / 다산책방
+                                <br>2023. 10. 11.
+                            </p>
+                            <p>
+                                "가끔 길을 잃고 헤맬 때에도<br>
+                                삶의 아름다움을 놓치지 않기를."
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="month">
+
+                        <li class="go">
+                            <h3>
+                                <a href="./index2-1.html">
+                                    <p>로우의 책장<br>보러가기</p>
+                                    <img src="./image/row_jang.png" alt="">
+                                </a>
+                            </h3>
+                        </li>
+                    </ul>
+
+                </div>
+            </li>
+    </div>
+
+
+    <!-- footer_START -->
+    <div id="footer_wrap">
+        <div class="footer">
+            <a href="#"><img class="foot_img" src="./image/logo.png" alt=""></a>
+            <div class="text_box">
+                <p class="b16">(주)드로우그로우
+                    <br>대표 : 정하영
+                </p>
+                <p><span>TEL</span> 010-7366-9479
+                    <br><span>FAX</span> 051-753-9479
+                    <br><span>E-MAIL</span> likedmoah@naver.com
+                    <br><span>주소</span> 부산광역시 동래구 온천천로 507
+                </p>
+                <p>Copyright © 2024 Company DRAW GROW. All Rights Reserved.</p>
+            </div>
+            <div class="sns_box">
+                <ul>
+                    <li><a href="https://accounts.kakao.com/login/?continue=https%3A%2F%2Fsharer.kakao.com%2Fpicker%2Flink%3Fapp_key%3D4e0f02e43248fed6c5850431ea527a61%26short_key%3D20f7c5b7-85e3-4f7c-add4-1a867dc86518#login"
+                            target="_blank"></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- top/home icon -->
+    <ul class="tophome">
+        <li><a href="#header_wrap">
+                TOP
+            </a></li>
+        <li><a href="./index.html">
+                <img src="./image/homeicon1.png" alt="home">
+            </a></li>
+    </ul>
+</body>
+
+</html>

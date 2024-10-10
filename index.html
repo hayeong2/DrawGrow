@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrawGrow</title>
+
+    <!-- content3_스와이퍼 -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
+
+    <!-- 화면이동시 부드럽게 움직이기 -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!-- 스크롤 시 아이콘이 나타나기 -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- header_START -->
+    <div id="header_wrap">
+        <div class="header">
+            <a href="./index.html"><img src="./image/logo.png" alt="logo"></a>
+            <ul class="sub">
+                <li><a href="./index2.html">BOOK</a>
+                    <div class="sub_wrap">
+                        <div class="sub_inner">
+                            <ul class="sub_menu">
+                                <li><a href="./index2.html">도서 홈</a></li>
+                                <li><a href="./index3.html">북클럽</a></li>
+                                <li><a href="./index2-1.html">로우의 책장</a></li>
+                                <li><a href="./index2-2.html">러우의 책장</a></li>
+                            </ul>
+                            <ul class="sub_menu">
+                                <li><a href="./index4.html">EVENT</a></li>
+                                <li><a href="./index4.html">공지사항</a></li>
+                                <li><a href="./index4.html">예약/캘린더</a></li>
+                            </ul>
+                            <ul class="sub_menu">
+                                <li><a href="./index5.html">브랜드 소개</a></li>
+                                <li><a href="./index5.html">층별안내</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="./index4.html">COMMUNITY</a>
+                    <div class="sub_wrap">
+                        <div class="sub_inner">
+                            <ul class="sub_menu">
+                                <li><a href="./index2.html">도서 홈</a></li>
+                                <li><a href="./index3.html">북클럽</a></li>
+                                <li><a href="./index2-1.html">로우의 책장</a></li>
+                                <li><a href="./index2-2.html">러우의 책장</a></li>
+                            </ul>
+                            <ul class="sub_menu">
+                                <li><a href="./index4.html">EVENT</a></li>
+                                <li><a href="./index4.html">공지사항</a></li>
+                                <li><a href="./index4.html">예약/캘린더</a></li>
+                            </ul>
+                            <ul class="sub_menu">
+                                <li><a href="./index5.html">브랜드 소개</a></li>
+                                <li><a href="./index5.html">층별안내</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="./index5.html">ABOUT</a>
+                    <div class="sub_wrap">
+                        <div class="sub_inner">
+                            <ul class="sub_menu">
+                                <li><a href="./index2.html">도서 홈</a></li>
+                                <li><a href="./index3.html">북클럽</a></li>
+                                <li><a href="./index2-1.html">로우의 책장</a></li>
+                                <li><a href="./index2-2.html">러우의 책장</a></li>
+                            </ul>
+                            <ul class="sub_menu">
+                                <li><a href="./index4.html">EVENT</a></li>
+                                <li><a href="./index4.html">공지사항</a></li>
+                                <li><a href="./index4.html">예약/캘린더</a></li>
+                            </ul>
+                            <ul class="sub_menu">
+                                <li><a href="./index5.html">브랜드 소개</a></li>
+                                <li><a href="./index5.html">층별안내</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="gnb">
+                <li><a href="./index6.html">마이페이지</a></li>
+                <li><a href="./index6.html">로그인</a></li>
+                <li><a href="./index6.html">회원가입</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- mb_START -->
+    <div id="b_wrap">
+        <div class="mb_wrap">
+            <img src="./image/main_film.jpg" alt="main_film">
+            <div class="mb">
+                <video src="./video/mb1.mp4" autoplay loop muted></video>
+            </div>
+            <img src="./image/main_film.jpg" alt="main_film">
+
+        </div>
+    </div>
+
+    <!-- 다독이모집_START -->
+    <div id="dadok_wrap">
+        <div class="dadok_img">
+            <h1>📢</h1>
+            <h2>다독이 3기 모집</h2>
+            <h3>[단독] 로우,러우 기자회견 현장 급습 !</h3>
+        </div>
+        <div id="slider_box1">
+            <div class="swiper mySwiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./image/cardnews1.jpg" alt="cardnews1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/cardnews2.jpg" alt="cardnews2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/cardnews3.jpg" alt="cardnews3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/cardnews4.jpg" alt="cardnews4">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/cardnews5.jpg" alt="cardnews5">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/cardnews6.jpg" alt="cardnews6">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/cardnews7.jpg" alt="cardnews7">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/cardnews8.jpg" alt="cardnews8">
+                    </div>
+                </div>
+
+            </div>
+            <div class="nv_wrap">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- content2_START -->
+    <div id="content2_wrap">
+        <ul class="wrap_bg">
+            <li class="row">
+                <img src="./image/row_.png" alt="row">
+                <img src="./image/row_hand.png" alt="row_hand">
+            </li>
+            <li class="raw">
+                <img src="./image/raw.png" alt="raw">
+                <img src="./image/raw_hand.png" alt="raw_hand">
+            </li>
+        </ul>
+        <div class="content2">
+            <div class="content2_title_1">
+                <h1>로우's PICK 책</h1>
+            </div>
+            <ul class="book_wrap">
+                <li><a href="./index2-1.html">
+                        <div class="book">
+                            <img src="./image/book1.jpg" alt="book1">
+                        </div>
+                        <div class="cover">
+                            <h3>인생 최악의 순간<br>최고의 이웃을 만나다!</h3>
+                            <p>까칠한 할아버지 '오베'와<br>따뜻한 장난꾸러기 이웃들의<br>좌충우돌 인생이야기.</p>
+                            <p>프레드릭 배크만의<br>섬세한 감정묘사가<br>돋보이는 감동소설!</p>
+
+                            <div class="more_radius">더 보기</div>
+                        </div>
+                    </a></li>
+                <li><a href="./index2-1.html">
+                        <div class="book">
+                            <img src="./image/book2.jpg" alt="book2">
+                        </div>
+                        <div class="cover">
+                            <h3>친구야, 나 사실<div class="br">정신과 진료 받고있어.</div>
+                            </h3>
+                            <p>뇌부자들 "김지용"의<br>슬기로운 정신과 생활</p>
+                            <p>정신과 진료를<br> 망설이는 사람들의<br>문턱을 낮춰주는<br>든든한 지원군같은 책</p>
+
+                            <div class="more_radius">더 보기</div>
+                        </div>
+                    </a></li>
+                <li><a href="./index2-1.html">
+                        <div class="book">
+                            <img src="./image/book3.jpg" alt="book3">
+                        </div>
+                        <div class="cover">
+                            <h3>물에 잠긴 지구에서<br>춤추고 사랑하는<br>존재들의 해피엔딩</h3>
+                            <p>바다가 된 지구에서<br>생명들이 살아가는 이야기</p>
+                            <p>유쾌하고 다정한 필력의<br>김청귤 작가의 SF 소설집!</p>
+
+                            <div class="more_radius">더 보기</div>
+                        </div>
+                    </a></li>
+                <li><a href="./index2-1.html">
+                        <div class="book">
+                            <img src="./image/book4.jpg" alt="book4">
+                        </div>
+                        <div class="cover">
+                            <h3>메이 데이!<br>네 번째 행성 발견</h3>
+                            <p>사랑보다 다툼이 늘고,<br>인간성을 잃어가는 이 곳.<br>이번 지구는 다정할 수 있을까?</p>
+                            <p>드로우 그로우 출간<br>SF장편소설 <4번째 지구>
+                            </p>
+                            <div class="more_radius">더 보기</div>
+                        </div>
+                    </a></li>
+                <li><a href="./index2-1.html">
+                        <div class="book">
+                            <img src="./image/book5.jpg" alt="book5">
+                        </div>
+                        <div class="cover">
+                            <h3>그 땐 기적인줄 몰랐다</h3>
+                            <p>머리부터 발끝까지 <br>모든 것이 다른 우리에게 <br>서로밖에 없다는 게.</p>
+                            <p>흰바위코뿔소와 펭귄의<br> 동물원 탈출일지</p>
+                            <p>서로의 긴긴밤을 채워주며 <br>사랑으로 보듬는 따뜻한 책</p>
+                            <div class="more_radius">더 보기</div>
+                        </div>
+                    </a></li>
+            </ul>
+
+            <ul class="book_intro_wrap">
+                <li>
+                    <div class="intro">
+                        <h2>오베라는 남자</h2>
+                        <h3>프레드릭 배크만 / 다산책방</h3>
+                        <ul>
+                            <li class="green">
+                                <p>장편소설</p>
+                            </li>
+                            <li class="red">
+                                <p>베스트셀러</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="intro">
+                        <h2>어쩌다 정신과 의사</h2>
+                        <h3>김지용 / 심심</h3>
+                        <ul>
+                            <li class="pink">
+                                <p>인문</p>
+                            </li>
+                            <li class="blue">
+                                <p>의학</p>
+                            </li>
+                            <li class="orange">
+                                <p>에세이</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="intro">
+                        <h2>해저도시 타코야키</h2>
+                        <h3>김청귤 / 래빗홀</h3>
+                        <ul>
+                            <li class="purple">
+                                <p>소설집</p>
+                            </li>
+                            <li class="green">
+                                <p>장르소설</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="intro">
+                        <h2>4번 째 지구</h2>
+                        <h3>정하영 / 드로우그로우</h3>
+                        <ul>
+                            <li class="green">
+                                <p class="grenner">장편소설</p>
+                            </li>
+                            <li class="blue">
+                                <p>SF</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="intro">
+                        <h2>긴긴밤</h2>
+                        <h3>루리 / 문학동네</h3>
+                        <ul>
+                            <li class="orange">
+                                <p>어린이문학</p>
+                            </li>
+                            <li class="red">
+                                <p>베스트셀러</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="content2_title_2">
+                <h1>러우's PICK 독서템</h1>
+            </div>
+            <ul class="item_intro">
+                <li><a href="./index2-2.html">
+                        <div class="item">
+                            <img src="./image/item1_s.jpg" alt="item1">
+                        </div>
+                        <div class="intro">
+                            <h2>힙-노트</h2>
+                            <ul>
+                                <li class="green">
+                                    <p>NEW</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </a></li>
+                <li><a href="./index2-2.html">
+                        <div class="item">
+                            <img src="./image/item2_s.jpg" alt="item2">
+                        </div>
+                        <div class="intro">
+                            <h2>책담아요 에코백</h2>
+                            <ul>
+                                <li class="green">
+                                    <p>NEW</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </a></li>
+                <li><a href="./index2-2.html">
+                        <div class="item">
+                            <img src="./image/item3_s.jpg" alt="item3">
+                        </div>
+                        <div class="intro">
+                            <h2>베이직 독서노트</h2>
+                            <ul>
+                                <li class="pink">
+                                    <p>BEST</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </a></li>
+                <li><a href="./index2-2.html">
+                        <div class="item">
+                            <img src="./image/item4_s.jpg" alt="item4">
+                        </div>
+                        <div class="intro">
+                            <h2>문학명언 책갈피</h2>
+                            <ul>
+                                <li class="pink">
+                                    <p>BEST</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </a></li>
+                <li><a href="./index2-2.html">
+                        <div class="item">
+                            <img src="./image/item5.jpg" alt="item5">
+                        </div>
+                        <div class="intro">
+                            <h2>2025 캘린더</h2>
+                            <ul>
+                                <li class="pink">
+                                    <p>BEST</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- content3_START -->
+
+    <div id="content3_wrap">
+        <div class="moving-element content3_title">
+            <h1>BOOK CLUB & EVENT</h1>
+        </div>
+    </div>
+
+    <div id="news">
+        <div class="swiper2 card">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="./index3-1.html#tap">
+                        <img src="./image/event1.jpg" alt="메인배너1"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./index3-1.html#tap">
+                        <img src="./image/event2.jpg" alt="메인배너2"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./index.html#dadok_wrap">
+                        <img src="./image/event3.jpg" alt="메인배너3"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./index3-2.html#tap">
+                        <img src="./image/event4.jpg" alt="메인배너4"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./index3-1.html#tap">
+                        <img src="./image/event5.jpg" alt="메인배너5"></a>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+
+    <!-- content4_START -->
+    <div id="content4_wrap">
+        <div class="content4">
+            <div class="con4_imgbox">
+                <img src="./image/content4.png" alt="content4">
+            </div>
+            <div class="moving-element content4_title">
+                <h1>층별안내</h1>
+            </div>
+            <div class="floor_wrap">
+                <p class="arrow">
+                    FLOOR을 눌러서<br>상세 층별안내를 확인해요!
+                    <img src="./image/arrow.png" alt="arrow">
+                </p>
+
+                <ul class="floor">
+                    <li><a href="./index5.html#floor3">
+                            <p class="hover2"><img src="./image/hover2.png" alt="hover2"></p>
+                            <p>FLOOR3</p>
+                        </a></li>
+                    <li><a href="./index5.html#floor2">
+                            <p class="hover2"><img src="./image/hover2.png" alt="hover2"></p>
+                            <p>FLOOR2</p>
+                        </a></li>
+                    <li><a href="./index5.html#floor1">
+                            <p class="hover2"><img src="./image/hover2.png" alt="hover2"></p>
+                            <p>FLOOR1</p>
+                        </a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- content5_START -->
+    <div class="content5">
+        <div class="content5_title">
+            <h1>오시는 길</h1>
+        </div>
+
+        <div class="map_wrap">
+            <div class="moving-element map1">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.6241814291297!2d129.1083538!3d35.1909184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568931c9651c2bb%3A0x172801fcd7597480!2z67aA7IKw6rSR7Jet7IucIOuPmeuemOq1rCDsmKjsspzsspzroZwgNTA3!5e0!3m2!1sko!2skr!4v1725351926620!5m2!1sko!2skr"
+                    width="670" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="moving-element map2">
+                <ul>
+                    <li>
+                        <div class="icon">
+                            <img src="./image/map_icon1.png" alt="map_icon1">
+                        </div>
+                        <div class="map">
+                            <p><span>주소</span>
+                                <br>부산광역시 동래구 온천천로 507
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <img src="./image/map_icon2.png" alt="map_icon2">
+                        </div>
+                        <div class="map">
+                            <p><span>TEL</span>
+                                <br>010-7366-9479
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <img src="./image/map_icon3.png" alt="map_icon3">
+                        </div>
+                        <div class="map">
+                            <p><span>E-MAIL</span>
+                                <br>likedmoah@naver.com
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <img src="./image/map_icon4.png" alt="map_icon4">
+                        </div>
+                        <div class="map">
+                            <p><span>운영시간</span>
+                                <br>평일 09:00 ~ 22:00
+                                <br>(일요일, 공휴일 휴무)
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <img src="./image/map_icon5.png" alt="map_icon5">
+                        </div>
+                        <div class="map">
+                            <p><span>교통편</span>
+                                <br>부산버스 200, 210, 307, 동래구2
+                                <br>동해선 원동역 도보 12분
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer_START -->
+    <div id="footer_wrap">
+        <div class="footer">
+            <a href="#"><img class="foot_img" src="./image/logo.png" alt=""></a>
+            <div class="text_box">
+                <p class="b16">(주)드로우그로우
+                    <br>대표 : 정하영
+                </p>
+                <p><span>TEL</span> 010-7366-9479
+                    <br><span>FAX</span> 051-753-9479
+                    <br><span>E-MAIL</span> likedmoah@naver.com
+                    <br><span>주소</span> 부산광역시 동래구 온천천로 507
+                </p>
+                <p>Copyright © 2024 Company DRAW GROW. All Rights Reserved.</p>
+            </div>
+            <div class="sns_box">
+                <ul>
+                    <li><a href="https://accounts.kakao.com/login/?continue=https%3A%2F%2Fsharer.kakao.com%2Fpicker%2Flink%3Fapp_key%3D4e0f02e43248fed6c5850431ea527a61%26short_key%3D20f7c5b7-85e3-4f7c-add4-1a867dc86518#login"
+                            target="_blank"></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- top/home icon -->
+    <ul class="tophome">
+        <li><a href="#header_wrap">
+                TOP
+            </a></li>
+        <li><a href="./index.html">
+                <img src="./image/homeicon1.png" alt="home">
+            </a></li>
+    </ul>
+
+
+    <!-- 다독이모집 스크립트 -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- 다독이모집 스크립트 -->
+    <script>
+        var swiper = new Swiper(".mySwiper1", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 9000000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+
+    <!-- 이벤트,북클럽 스크립트 -->
+    <script>
+        var swiper = new Swiper(".card", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            slidesPerView: 2,
+            centeredSlides: true,
+            spaceBetween: 30,
+        });
+    </script>
+
+</body>
+
+</html>
